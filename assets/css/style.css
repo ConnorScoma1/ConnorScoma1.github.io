@@ -63,11 +63,13 @@ a.linkNext:hover{
 
 
 
-.nav1{
+.nav1, a:visited{
   padding: 15px;
   margin: 10px;
   border: 2px solid #f49842;
 }
+
+.nav1:
 
 .nav1:hover{
   background-color: #f49842;
@@ -75,7 +77,7 @@ a.linkNext:hover{
   transition: .5s;
 }
 
-.nav2{
+.nav2, a:visited{
   padding: 15px;
   margin: 10px;
   border: 2px solid #49d13a;
