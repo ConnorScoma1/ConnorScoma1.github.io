@@ -89,7 +89,7 @@ a.linkNext:hover{
   transition: .5s;
 }
 
-.nav3{
+.nav3,a:visited {
   padding: 15px;
   margin: 10px;
   border: 2px solid #3bd3c1;
@@ -101,7 +101,7 @@ a.linkNext:hover{
   transition: .5s;
 }
 
-.nav4{
+.nav4, a:visited{
   padding: 15px;
   margin: 10px;
   border: 2px solid #3b59d3;
@@ -113,7 +113,7 @@ a.linkNext:hover{
     transition: .5s;
 }
 
-.nav5{
+.nav5, a:visited{
   padding: 15px;
   margin: 10px;
   border: 2px solid #a92bbc;
