@@ -63,13 +63,12 @@ a.linkNext:hover{
 
 
 
-.nav1, a:visited{
+.nav1{
   padding: 15px;
   margin: 10px;
   border: 2px solid #f49842;
 }
 
-.nav1:
 
 .nav1:hover{
   background-color: #f49842;
@@ -77,7 +76,7 @@ a.linkNext:hover{
   transition: .5s;
 }
 
-.nav2, a:visited{
+.nav2{
   padding: 15px;
   margin: 10px;
   border: 2px solid #49d13a;
@@ -89,7 +88,7 @@ a.linkNext:hover{
   transition: .5s;
 }
 
-.nav3,a:visited {
+.nav3 {
   padding: 15px;
   margin: 10px;
   border: 2px solid #3bd3c1;
@@ -101,7 +100,7 @@ a.linkNext:hover{
   transition: .5s;
 }
 
-.nav4, a:visited{
+.nav4{
   padding: 15px;
   margin: 10px;
   border: 2px solid #3b59d3;
@@ -113,7 +112,7 @@ a.linkNext:hover{
     transition: .5s;
 }
 
-.nav5, a:visited{
+.nav5{
   padding: 15px;
   margin: 10px;
   border: 2px solid #a92bbc;
@@ -129,7 +128,7 @@ a.linkNext{
   padding: 25px;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1000px){
   .nav1, .nav2, .nav3, .nav4, .nav5{
     float: none;
     display: block;

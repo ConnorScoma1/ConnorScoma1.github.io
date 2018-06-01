@@ -17,14 +17,14 @@
   margin-top: 30%;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1000px){
   .page_2{
     margin-left: 10%;
 
   }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1000px){
   .Pimg:hover{
     width: 50%;
   }

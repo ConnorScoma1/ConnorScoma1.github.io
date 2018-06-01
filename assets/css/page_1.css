@@ -70,7 +70,7 @@ a.linkNext:hover{
   transition: 1s;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1000px){
   .nav1, .nav2, .nav3, .nav4, .nav5{
     float: none;
     display: block;
