@@ -30,12 +30,16 @@ a:link{
   text-decoration: none;
   color: black;
   text-align: center;
-  border: 2px solid Green;
+
 }
 
 a:hover{
   color: white;
   background-color: green;
+}
+
+a:link:visited{
+  border-style:  none;
 }
 
 li{
