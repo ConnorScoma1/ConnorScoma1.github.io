@@ -30,6 +30,7 @@ a:link{
   text-decoration: none;
   color: black;
   text-align: center;
+  border-style:  none;
 
 }
 
@@ -39,6 +40,10 @@ a:hover{
 }
 
 a:link:visited{
+  border-style:  none;
+}
+
+a:link:unvisited{
   border-style:  none;
 }
 
