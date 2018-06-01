@@ -1,0 +1,45 @@
+.name{
+  color: green;
+  width: 50%;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.bnt{
+  background-color: #a0ffb0;
+  width: 10%;
+  height: 35px;
+  border-style: none;
+  font-family: 'Roboto Mono', monospace;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.bnt2{
+  background-color: #ff898f;
+  width: 15%;
+  height: 35px;
+  border-style: none;
+  font-family: 'Roboto Mono', monospace;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.bnt:hover{
+  width: 15%;
+  height: 45px;
+  background-color: #31c65b;
+  color: white;
+}
+
+.bnt2:hover{
+  width: 20%;
+  height: 45px;
+  color:white;
+  background-color: #ea335b;
+}
+
+.text1{
+  font-family: 'Roboto Mono', monospace;
+}
