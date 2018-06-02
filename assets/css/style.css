@@ -26,7 +26,7 @@ hr{
   font-family: 'Roboto Mono', monospace;
   animation-name: Dscipt;
   animation-timing-function: linear;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
   animation-duration: 3s;
   transform-style: preserve-3d;
 }
