@@ -40,11 +40,22 @@
 
 
                 <div class="form">
-                  <p>SEND E-MAIL</p>
+                  <br><br>
+                  <p>SEND A E-MAIL</p><br><br><br>
                   <form action="https://formspree.io/connorscoma@gmail.com" method="POST">
-                      <input type="text" name="name">
-                      <input type="email" name="_replyto">
-                      <input type="submit" value="Send">
+
+                      <div class="contact-info">
+
+                          <input type="text" name="name" placeholder="Your Name" id="name">
+                          <br><br><br><br>
+
+                          <input type="email" name="_replyto" placeholder="Your E-mail" id="email">
+                        </div>
+                          <br><br><br><br><br>
+
+                          <textarea name="message" id="textarea" placeholder="Write a message"></textarea>
+                            <br><br><br><br><br>
+                      <input type="submit" value="Send" id="bnt">
               </form>
 
 
