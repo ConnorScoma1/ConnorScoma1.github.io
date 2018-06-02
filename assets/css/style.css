@@ -22,7 +22,7 @@ hr{
 
 }
 
-.Dscipt{
+#Dscipt{
   font-family: 'Roboto Mono', monospace;
   animation-name: spinner;
   animation-timing-function: linear;
@@ -31,11 +31,11 @@ hr{
   transform-style: preserve-3d;
 }
 
-@@keyframes Dscipt {
-  from{
+@keyframes Dscipt {
+  from {
     transform: rotateY(0deg);
   }
-  to{
+  to {
     transform: rotateY(-360deg);
   }
 }
