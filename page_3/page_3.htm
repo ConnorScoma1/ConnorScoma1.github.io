@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Roboto+Mono" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="../assets/img/icon.png">
-    
-      <title>Connor Scoma Web Development Portfolio</title>
+
+      <title>Connor Scoma | Contact Form</title>
   </head>
 
     <body>
@@ -39,18 +39,18 @@
 
 
               <section>
-                  <form action="mailto:connorscoma@gmail.com" method="get" enctype="text/plain">
-                    <p><input type="text" class="name" placeholder="First Name" name="fname" /></p>
-                    <p><input type="text" class="name" placeholder="Last Name" name="lname" /></p>
-                    <p><input type="tel" class="name" placeholder="Phone Number" name="tel" /></p>
-                    <p><input type="text" class="name" placeholder="Email Address" name="email" /></p>
-                    <p>
-                        <textarea cols="48" rows="5" class="text1" placeholder="Write Something Here..." name="comments"></textarea></p>
-                            <p><input type="submit" class="bnt" name="submit" value="Send" />
-                            <input type="reset" class="bnt2" value="Clear" /></p>
-                  </form>
+                <main>
+                  <p>SEND E-MAIL</p>
+                    <form class="contact-form" action="contactform.php" method="post">
+                      <input type="text" name="name" placeholder="Full name">
+                      <input type="text" name="mail" placeholder="Your e-mail">
+                      <input type="text" name="subject" placeholder="subject">
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <button type="submit" name="submit">SEND MAIL</button>
 
+                    </form>
 
+                </main>
               </section>
 
       </div>
