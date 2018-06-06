@@ -22,24 +22,9 @@ hr{
 
 }
 
-#Dscipt{
+.Dscipt{
   font-family: 'Roboto Mono', monospace;
-  animation-name: Dscipt;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-  animation-duration: 3s;
-  transform-style: preserve-3d;
 }
-
-@keyframes Dscipt {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(-360deg);
-  }
-}
-
 
 a:link{
   text-decoration: none;
