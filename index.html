@@ -18,15 +18,50 @@
 </head>
 
 <body>
-		<div id="loader-wrapper">
+		<!--<div id="loader-wrapper">
 			<div id="loader"></div>
 
 
 			<div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
 
+		</div> -->
+
+
+															<!--Navigation Menu-->
+<header class="Nav-Menu">
+		<div id="Navigation" class="overlay">
+				<a href="javascript:void(0)" class="closebnt" onclick="closeNav()">&times;</a>
+
+		<div class="overlay-content">
+				<div class="nav-container">
+					<a class="nav1" href="#">about</a>
+					<a class="nav2" href="#">portfolio</a>
+					<a class="nav3" href="#">contact</a>
+				</div>
 		</div>
 
+		</div>
+
+
+			<span class="burger" onclick="openNav()">&#9776;</span>
+
+
+<script type="text/javascript">
+	function openNav() {
+		document.getElementById('Navigation').style.width = "100%";
+	}
+
+	function closeNav() {
+		document.getElementById('Navigation').style.width = "0%";
+	}
+
+
+
+
+</script>
+
+</header>
 
 
 		<div class="follow-me">

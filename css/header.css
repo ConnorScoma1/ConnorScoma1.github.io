@@ -1,0 +1,69 @@
+.overlay{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 905;
+  left: 0;
+  top: 0;
+  background-color: #444444;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay .closebnt{
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.burger{
+  font-size: 50px;
+  float: right;
+  margin-top: 2%;
+  margin-right: 2%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-container a{
+  padding-top: 14%;
+  padding-bottom: 13%;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #4a4a4a 50%, #505050 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+
+.burger:hover{font-size: 55px; color: #666;}
+
+
+.nav-container a:hover {
+  background-position: 0 -100%;
+}
+
+.nav-container{
+margin-left: 30%;
+margin-right: 30%;
+margin-top: -10%;
+height: 700px;
+}

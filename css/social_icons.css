@@ -28,7 +28,7 @@ body{
 }
 
 .follow-me{
-  z-index: 999;
+  z-index: 900;
   position: fixed;
   left: 0;
   top: calc(50% - (220px / 2));
