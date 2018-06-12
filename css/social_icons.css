@@ -146,6 +146,21 @@ a {
   color: #FFF;
 }
 
+@media screen and (max-width: 700px) {
+  .follow-me {
+    top: calc(92% - (220px / 2));
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .follow-me small {
+    visibility: hidden;
+  }
+}
+
+
+
 .follow-me li{
   transition: transform 425ms cubic-bezier(.69,.03,.03,.93),opacity .15s ease-out;
 }

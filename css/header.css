@@ -44,6 +44,24 @@
   transition: 0.3s ease;
 }
 
+@media screen and (max-width: 700px) {
+  .burger {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .overlay a {font-size: 30px;}
+    .nav-container {
+      padding-top: 20%;
+      padding-bottom: 19%;
+    }
+}
+
+
+
 .nav-container a{
   padding-top: 14%;
   padding-bottom: 13%;

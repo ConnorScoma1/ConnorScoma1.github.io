@@ -178,6 +178,13 @@ h3{
       margin-left: 30%;
       margin-right: 30%;
       margin-top: 20%;
-      
       font-family: 'Khand', sans-serif;
+    }
+
+    @media screen and (max-width: 700px) {
+      #content {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 40%;
+      }
     }
