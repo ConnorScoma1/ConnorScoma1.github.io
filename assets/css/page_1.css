@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/BG.jpg);
+   background-attachment: fixed;
+}
+
+.wrapper{
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+
+img{
+  display: inline-block;
+  height: -50%;
+  width: -50%;
+}
+
+
+.Name{
+  margin-top: 100px;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 60px;
+}
+
+hr{
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.Dscipt{
+  font-family: 'Roboto Mono', monospace;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border: 2px solid Green;
+}
+
+a:hover{
+  color: white;
+  background-color: green;
+}
+
+li{
+  display: inline;
+  padding-left: 25px;
+  padding-top: 15px;
+  font-size: 15px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+a.linkNext:hover{
+  background-color: blue;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+@media screen and (max-width: 1000px){
+  .nav1, .nav2, .nav3, .nav4, .nav5{
+    float: none;
+    display: block;
+
+  }
+
+}
+
+
+
+
+.nav1{
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #f49842;
+}
+
+.nav1:hover{
+  background-color: #f49842;
+  color: white;
+  transition: .5s;
+}
+
+.nav2{
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #49d13a;
+}
+
+.nav2:hover{
+  background-color: #49d13a;
+  color: white;
+  transition: .5s;
+}
+
+.nav3{
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #3bd3c1;
+}
+
+.nav3:hover{
+  background-color: #3bd3c1;
+  color: white;
+  transition: .5s;
+}
+
+.nav4{
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #3b59d3;
+}
+
+.nav4:hover{
+    background-color: #3b59d3;
+    color: white;
+    transition: .5s;
+}
+
+
+.nav5{
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #a92bbc;
+}
+
+.nav5:hover{
+  background-color: #a92bbc;
+  color: white;
+  transition: .5s;
+}
+
+a.linkNext{
+  padding: 25px;
+}
+
+.linkNext{
+  background-color: red;
+  color: white;
+}
