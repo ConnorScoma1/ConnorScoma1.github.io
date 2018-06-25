@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wedding Invation | Chris Scoma & Tanya Anderson</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+
+    <script>
+
+    $('a[href^="#"]').on('click', function(event) {
+
+      var target = $(this.getAttribute('href'));
+
+        if( target.length ) {
+          event.preventDefault();
+          $('html, body').stop().animate({
+            scrollTop: target.offset().top
+          }, 1000);
+        }
+
+      });
+
+    </script>
+
+    <header>
+      <img src="img/logo.png" alt="Scanderson" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home-hero">
+      <div class="container">
+        <h1 class="title">Chris Scoma and Tanya Anderson
+          <span>Wedding Inviation</span>
+        </h1>
+          <a href="#rsvp" id="info" class="button button-accent">RSVP</a>
+    </section>
+  </div>
+    <section class="home-about">
+
+<div class="container">
+      <div class="home-about-textbox">
+        <h1>Our Story</h1>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy
+        text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the
+        leap into electronic typesetting, remaining essentially unchanged.  </p>
+
+        <p>It was popularised in the 1960s with the release of Letraset sheets
+        containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.</p>
+
+      </div>
+    </section>
+</div>
+
+<br>
+<hr>
+<h1 class="menu-options">Menu</h1>
+
+<div class="container3">
+  <div class="menu1">
+    <section class="menu" id="menu">
+      <div class="row">
+        <div class="column" style="background-color:#9977f1;">
+          <h2>Fish</h2>
+          <img src="img/fish.png" alt="Fish Meal">
+        </div>
+        <div class="column" style="background-color:#9977f1;">
+          <h2>Steak</h2>
+          <img src="img/steak.png" alt="Fish Meal">
+        </div>
+        <div class="column" style="background-color:#9977f1;">
+          <h2>Chicken</h2>
+          <img src="img/chicken.png" alt="Fish Meal">
+        </div>
+      </div>
+    </div>
+    </section>
+</div>
+
+
+<br>
+<hr>
+<h1 class="menu-options">RSVP</h1>
+
+    <section class="rsvp" id="rsvp">
+      <div class="contact-box">
+        <form action="https://formspree.io/connorscoma@gmail.com" method="POST">
+            <input class="user-input" type="text" placeholder="First Name" name="name">
+            <input class="user-input" type="text" placeholder="Last Name" name="name">
+            <input class="user-input" type="text" placeholder="Phone Number" name="name">
+            <input class="user-input" type="text" placeholder="Meal Allergies" name="name">
+            <br>
+            <br>
+            <p>Select a Meal</p>
+              <select class="user-select" name="menu-option">
+                  <option value="Chicken">Chicken</option>
+                  <option value="Steak">Steak</option>
+                  <option value="Fish">Fish</option>
+              </select>
+              <br>
+
+            <input class="submit_bnt" type="submit" value="Send">
+        </form>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="row1">
+        <div class="column1" style="background-color: #9977f1;">
+          <h3>Information</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing
+           and typesetting industry. Lorem Ipsum has been the
+           industry's standard dummy text ever since the 1500s.</p>
+        </div>
+          
+
+        <div class="column1" style="background-color: #9977f1;">
+          <h3>Location</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing
+           and typesetting industry. Lorem Ipsum has been the
+           industry's standard dummy text ever since the 1500s.</p>
+        </div>
+
+        <div class="column1" style="background-color: #9977f1;">
+          <h3>Time</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing
+           and typesetting industry. Lorem Ipsum has been the
+           industry's standard dummy text ever since the 1500s.</p>
+        </div>
+
+        <div class="column1" style="background-color: #9977f1;">
+          <h3>Attire</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing
+           and typesetting industry. Lorem Ipsum has been the
+           industry's standard dummy text ever since the 1500s.</p>
+        </div>
+
+
+      </div>
+    </footer>
+
+
+
+
+
+  </body>
+</html>
