@@ -6,23 +6,37 @@
     <title>Wedding Invation | Chris Scoma & Tanya Anderson</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta name="theme-color" content="#9977f1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
   </head>
   <body>
 
     <script>
 
-    $('a[href^="#"]').on('click', function(event) {
+        var marginY = 0;
+        var destination = 0;
+        var speed = 12;
+        var scroller = null;
 
-      var target = $(this.getAttribute('href'));
+          function initScroll(elementId) {
+            destination = document.getElementById(elementId).offsetTop;
 
-        if( target.length ) {
-          event.preventDefault();
-          $('html, body').stop().animate({
-            scrollTop: target.offset().top
-          }, 1000);
-        }
+              scroller = setTimeout(function() {
+                  initScroll(elementId);
+              }, 1);
 
-      });
+              marginY = marginY + speed;
+
+                if(marginY >= destination) {
+                  clearTimeout(scroller);
+                }
+
+                window.scroll(0, marginY);
+
+
+            //console.log();
+          }
+
 
     </script>
 
@@ -30,9 +44,9 @@
       <img src="img/logo.png" alt="Scanderson" class="logo">
       <nav>
         <ul>
-          <li><a href="#info">Info</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#rsvp">RSVP</a></li>
+          <li><a onclick="initScroll('info'); return false;" href="#info">Info</a></li>
+          <li><a onclick="initScroll('menu'); return false;" href="#menu">Menu</a></li>
+          <li><a onclick="initScroll('rsvp'); return false;" href="#rsvp">RSVP</a></li>
         </ul>
       </nav>
     </header>
@@ -42,12 +56,15 @@
         <h1 class="title">Chris Scoma and Tanya Anderson
           <span>Wedding Inviation</span>
         </h1>
-          <a href="#rsvp" id="info" class="button button-accent">RSVP</a>
+          <a href="#rsvp" class="button button-accent">RSVP</a>
+          <div id="info"></div>
     </section>
   </div>
-    <section class="home-about">
 
-<div class="container">
+
+<section class="home-about">
+  <div class="container">
+
       <div class="home-about-textbox">
         <h1>Our Story</h1>
 
@@ -64,7 +81,7 @@
         Ipsum.</p>
 
       </div>
-    </section>
+  </section>
 </div>
 
 <br>
@@ -75,18 +92,19 @@
   <div class="menu1">
     <section class="menu" id="menu">
       <div class="row">
+
         <div class="column" style="background-color:#9977f1;">
-          <h2>Fish</h2>
           <img src="img/fish.png" alt="Fish Meal">
         </div>
+
         <div class="column" style="background-color:#9977f1;">
-          <h2>Steak</h2>
           <img src="img/steak.png" alt="Fish Meal">
         </div>
+
         <div class="column" style="background-color:#9977f1;">
-          <h2>Chicken</h2>
           <img src="img/chicken.png" alt="Fish Meal">
         </div>
+
       </div>
     </div>
     </section>

@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  overflow-x: hidden;
 }
 
 img {
@@ -274,6 +275,14 @@ nav a:hover, nav a:focus {
 
 }
 
+@media (min-width: 60rem) {
+   img {
+    height: 200px;
+    width: auto;
+
+  }
+}
+
 /* End Menu Page
 ======================*/
 
@@ -323,6 +332,23 @@ form {
   margin-bottom: 40px;
 }
 
+@media (min-width: 60rem) {
+  .user-input {
+    width: 50%;
+    font-size: 1.5em;
+    margin-top: 2%;
+  }
+
+  .user-select {
+    width: 50%;
+    border: none;
+    margin-bottom: 15px;
+  }
+
+  .submit_bnt {
+    width: 50%;
+  }
+}
 
 
 /* form page end
@@ -343,5 +369,13 @@ form {
   display: table;
   clear: both;
 }
+
+@media (min-width: 60rem) {
+  .column1 {
+    float: left;
+    padding: 0;
+  }
+}
+
 /* End of Footer
 ======================*/
