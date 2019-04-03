@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-image: url('https://images.pexels.com/photos/768943/pexels-photo-768943.jpeg?cs=srgb&dl=bloom-blooming-cafe-768943.jpg&fm=jpg');
+    background-size: 125vw;
+    animation: ease onLoad 3s;
+}
+
+/*
+============================ Main Nav ==========================================
+*/
+
+nav {
+    height: 80px;
+    background: #fff;
+    border-bottom: 2px solid #7a7a7a;
+    margin-right: -50%;
+    margin-left: -50%;
+}
+
+.nav{
+   padding-top: 25px;
+}
+
+ul {
+    display: inline;
+    float: right;
+    margin-right: 25%;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    list-style:  none;
+    padding: 10px;
+    font-size: 1em;
+    color: #7a7a7a;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: ease .4s;
+}
+
+li:hover {
+    color: white;
+    cursor: pointer;
+    background: #2b8ec6;
+    transition: ease .4s;
+}
+
+.item {
+    border-right: 2px solid #7a7a7a;
+}
+
+h1 {
+    background: #2b8ec6; 
+    color: white;
+    display: inline;
+    padding: 29px;
+    margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+============================ Main Content ==========================================
+*/
+
+.container {
+    height: 700px;
+    width: 1000px;
+    background: #fff;
+    margin-top: 45px;
+    padding: 25px;
+    border: 1px solid #2b8ec6;
+    animation: ease 2s onSlide;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 32px;
+    color: #2b8ec6;
+}
+
+hr {
+    height: 5px;
+    color: #2b8ec6;
+    background: #2b8ec6;
+    border: none;
+    width: 35vw;
+}
+
+.port-img {
+    float: left;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+p {
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 65px;
+}
+
+/*
+============================ Footer ==========================================
+*/
+
+.footer {
+    height: 100px;
+    width: 100vw;
+    background: #2b8ec6;
+    position: fixed;
+    bottom: 0;
+    margin-left: -25%;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
+/*
+============================ Project Images ==========================================
+*/
+
+.img-align {
+    display: inline;
+    position: relative;
+    text-align: center;
+}
+
+.img-align:hover {
+    transition: .4s;
+    opacity: .5;    
+}
+
+.img-align h4 {
+    position: absolute;
+    left: 3px;
+    background: #2b8ec6;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.img-align img {
+    height: 200px;
+    width: 300px;
+    padding: 15px;
+}
+
+.text-img {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    display: inline-block; 
+    margin-left: 25px;
+}
+
+
+/*
+============================ Styles For Input Fields ==========================================
+*/
+
+
+
+form h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: #6a6a6a;
+}
+
+form input {
+    width: 100%;
+    border: solid 1px #6a6a6a;
+    height: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form textarea {
+    height: 150px;
+    width: 100%;
+    font-size: 25px;
+}
+
+form button {
+    border: none;
+    background: #2b8ec6;
+    color: #fff;
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 25px;
+    transition: .4s ease;
+}
+
+form button:hover {
+    background: #15c151;
+    transition: ease .4s;
+    cursor: pointer;
+    
+}
+
+/*
+============================ Keyframes / CSS Animation ==========================================
+*/
+
+@keyframes onLoad{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes xSpin {
+    0% {
+        transform: rotateX(0);
+    }
+    50% {
+        transform: rotateX(180deg);
+    }
+    100% {
+        transform: rotateX(0)
+    }
+}
+
+
+@keyframes onSlide {
+    0% {
+        transform: translateX(100vw)
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
